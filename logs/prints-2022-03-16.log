@@ -1,0 +1,6 @@
+23:57:33.574 [TestNG-test=Test-4] INFO   - navigateToLoginPage: PASSED WOOOHOOO!
+23:57:53.820 [TestNG-test=Test-2] INFO   - homePageValidation: PASSED WOOOHOOO!
+23:58:00.846 [TestNG-test=Test-1] INFO   - hideShowButtonTest: PASSED WOOOHOOO!
+23:58:05.798 [TestNG-test=Test-3] INFO   - Screenshot on failure saved: [C:\Users\Pavle\SeleniumTraining\FrameworkPractice/reports/testToFail1647471394373.png].
+23:58:19.965 [main] INFO   - MyFramework.DriverManagerTest.testDriverManager()
+23:58:19.966 [main] DEBUG  - Getting driver wrapper

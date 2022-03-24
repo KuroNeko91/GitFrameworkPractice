@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 64.615 s <<< FAILURE! - in TestSuite
+MyFramework.SomeTestToFail.testToFail  Time elapsed: 27.498 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at MyFramework.SomeTestToFail.testToFail(SomeTestToFail.java:41)
+

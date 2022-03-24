@@ -1,0 +1,6 @@
+12:16:07.104 [TestNG-test=Test-1] DEBUG  - Getting driver wrapper
+12:16:07.117 [TestNG-test=Test-1] DEBUG  - Getting google.com
+12:16:07.118 [TestNG-test=Test-1] ERROR  - ARHG
+12:16:08.985 [TestNG-test=Test-1] INFO   - PASSED WOOOHOOO!
+16:29:18.180 [TestNG-test=Test-1] INFO   - Screenshot on failure saved: [C:\Users\Pavle\SeleniumTraining\FrameworkPractice\reports\testToFail.png].
+16:31:40.589 [TestNG-test=Test-1] INFO   - Screenshot on failure saved: [C:\Users\Pavle\SeleniumTraining\FrameworkPractice/reports/testToFail1647271881811.png].

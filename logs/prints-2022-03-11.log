@@ -1,0 +1,10 @@
+14:54:37.325 [main] DEBUG  - Getting driver wrapper
+14:54:37.330 [main] DEBUG  - Getting google.com
+14:54:37.330 [main] ERROR  - ARHG
+15:01:13.694 [main] INFO   - MyFramework.DriverManagerTest.testDriverManager()
+15:01:13.697 [main] DEBUG  - Getting driver wrapper
+15:01:13.698 [main] DEBUG  - Getting google.com
+15:01:13.698 [main] ERROR  - ARHG
+15:44:22.494 [main] INFO   - MyFramework.DriverManagerTest.testDriverManager()
+15:44:22.504 [main] DEBUG  - Getting driver wrapper
+15:44:22.504 [main] DEBUG  - Getting google.com

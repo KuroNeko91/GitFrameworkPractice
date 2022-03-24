@@ -1,0 +1,6 @@
+02:51:11.567 [TestNG-tests-5] INFO   - Screenshot on failure saved: [C:\Users\Pavle\SeleniumTraining\FrameworkPractice/reports/testToFail1647481843293.png].
+02:51:19.099 [TestNG-tests-1] INFO   - automationPageFrameNavigation: PASSED WOOOHOOO!
+02:51:26.107 [TestNG-tests-3] INFO   - homePageValidation: PASSED WOOOHOOO!
+02:51:38.388 [TestNG-tests-4] INFO   - hideShowButtonTest: PASSED WOOOHOOO!
+02:51:43.673 [TestNG-tests-1] INFO   - navigateToLoginPage: PASSED WOOOHOOO!
+02:53:45.796 [TestNG-tests-5] INFO   - Screenshot on failure saved: [C:\Users\Pavle\SeleniumTraining\FrameworkPractice/reports/testToFail1647481997727.png].

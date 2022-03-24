@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-18T21:11:07 CET" name="Default suite" finished-at="2022-03-18T21:11:35 CET" duration-ms="27681">
+    <groups>
+      <group name="some_test_group">
+        <method signature="NavigateToLoginPage.navigateToLoginPage()[pri:0, instance:MyFramework.NavigateToLoginPage@7a48e6e2]" name="navigateToLoginPage" class="MyFramework.NavigateToLoginPage"/>
+      </group> <!-- some_test_group -->
+    </groups>
+    <test started-at="2022-03-18T21:11:07 CET" name="Default test" finished-at="2022-03-18T21:11:35 CET" duration-ms="27681">
+      <class name="MyFramework.NavigateToLoginPage">
+        <test-method signature="navigateToLoginPage()[pri:0, instance:MyFramework.NavigateToLoginPage@7a48e6e2]" started-at="2022-03-18T21:11:07 CET" name="navigateToLoginPage" finished-at="2022-03-18T21:11:34 CET" duration-ms="26819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLoginPage -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:MyFramework.NavigateToLoginPage@7a48e6e2]" started-at="2022-03-18T21:11:34 CET" name="closeDriver" finished-at="2022-03-18T21:11:35 CET" duration-ms="822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- MyFramework.NavigateToLoginPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="7" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-17T02:53:18 CET" name="TestSuite" finished-at="2022-03-17T02:54:21 CET" duration-ms="62780">
+    <groups>
+      <group name="some_other_test_group">
+        <method signature="NavigateToLoginPage.automationPageFrameNavigation()[pri:0, instance:MyFramework.NavigateToLoginPage@475b7792]" name="automationPageFrameNavigation" class="MyFramework.NavigateToLoginPage"/>
+        <method signature="HideShowButtonTest.hideShowButtonTest()[pri:0, instance:homePageValidation.HideShowButtonTest@28fa700e]" name="hideShowButtonTest" class="homePageValidation.HideShowButtonTest"/>
+        <method signature="SomeTestToFail.testToFail()[pri:0, instance:MyFramework.SomeTestToFail@11ee02f8]" name="testToFail" class="MyFramework.SomeTestToFail"/>
+      </group> <!-- some_other_test_group -->
+      <group name="some_test_group">
+        <method signature="NavigateToLoginPage.navigateToLoginPage()[pri:0, instance:MyFramework.NavigateToLoginPage@475b7792]" name="navigateToLoginPage" class="MyFramework.NavigateToLoginPage"/>
+        <method signature="LinkValidation.homePageValidation()[pri:0, instance:homePageValidation.LinkValidation@13c612bd]" name="homePageValidation" class="homePageValidation.LinkValidation"/>
+      </group> <!-- some_test_group -->
+    </groups>
+    <test started-at="2022-03-17T02:53:18 CET" name="test2" finished-at="2022-03-17T02:53:18 CET" duration-ms="14">
+    </test> <!-- test2 -->
+    <test started-at="2022-03-17T02:53:19 CET" name="test6" finished-at="2022-03-17T02:53:19 CET" duration-ms="0">
+    </test> <!-- test6 -->
+    <test started-at="2022-03-17T02:53:18 CET" name="test5" finished-at="2022-03-17T02:53:46 CET" duration-ms="28202">
+      <class name="MyFramework.SomeTestToFail">
+        <test-method signature="testToFail()[pri:0, instance:MyFramework.SomeTestToFail@11ee02f8]" started-at="2022-03-17T02:53:18 CET" name="testToFail" finished-at="2022-03-17T02:53:45 CET" duration-ms="27376" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at MyFramework.SomeTestToFail.testToFail(SomeTestToFail.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToFail -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:MyFramework.SomeTestToFail@11ee02f8]" started-at="2022-03-17T02:53:45 CET" name="closeDriver" finished-at="2022-03-17T02:53:46 CET" duration-ms="656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- MyFramework.SomeTestToFail -->
+    </test> <!-- test5 -->
+    <test started-at="2022-03-17T02:53:18 CET" name="test4" finished-at="2022-03-17T02:54:14 CET" duration-ms="56237">
+      <class name="homePageValidation.HideShowButtonTest">
+        <test-method signature="hideShowButtonTest()[pri:0, instance:homePageValidation.HideShowButtonTest@28fa700e]" started-at="2022-03-17T02:53:18 CET" name="hideShowButtonTest" finished-at="2022-03-17T02:54:13 CET" duration-ms="55469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hideShowButtonTest -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:homePageValidation.HideShowButtonTest@28fa700e]" started-at="2022-03-17T02:54:13 CET" name="closeDriver" finished-at="2022-03-17T02:54:14 CET" duration-ms="714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- homePageValidation.HideShowButtonTest -->
+    </test> <!-- test4 -->
+    <test started-at="2022-03-17T02:53:18 CET" name="test3" finished-at="2022-03-17T02:54:16 CET" duration-ms="58664">
+      <class name="homePageValidation.LinkValidation">
+        <test-method signature="homePageValidation()[pri:0, instance:homePageValidation.LinkValidation@13c612bd]" started-at="2022-03-17T02:53:18 CET" name="homePageValidation" finished-at="2022-03-17T02:54:16 CET" duration-ms="58004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageValidation -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:homePageValidation.LinkValidation@13c612bd]" started-at="2022-03-17T02:54:16 CET" name="closeDriver" finished-at="2022-03-17T02:54:16 CET" duration-ms="608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- homePageValidation.LinkValidation -->
+    </test> <!-- test3 -->
+    <test started-at="2022-03-17T02:53:18 CET" name="test1" finished-at="2022-03-17T02:54:21 CET" duration-ms="62780">
+      <class name="MyFramework.NavigateToLoginPage">
+        <test-method signature="automationPageFrameNavigation()[pri:0, instance:MyFramework.NavigateToLoginPage@475b7792]" started-at="2022-03-17T02:53:18 CET" name="automationPageFrameNavigation" finished-at="2022-03-17T02:53:55 CET" duration-ms="37154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- automationPageFrameNavigation -->
+        <test-method signature="navigateToLoginPage()[pri:0, instance:MyFramework.NavigateToLoginPage@475b7792]" started-at="2022-03-17T02:53:55 CET" name="navigateToLoginPage" finished-at="2022-03-17T02:54:19 CET" duration-ms="24280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLoginPage -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:MyFramework.NavigateToLoginPage@475b7792]" started-at="2022-03-17T02:54:19 CET" name="closeDriver" finished-at="2022-03-17T02:54:21 CET" duration-ms="1286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- MyFramework.NavigateToLoginPage -->
+    </test> <!-- test1 -->
+  </suite> <!-- TestSuite -->
+</testng-results>
