@@ -74,12 +74,14 @@ public class NavigateToLoginPage extends BaseTest {
 			sleepSecondsBecauseReasons(5);
 			app.switchBackToParentFrame();
 			app.clickHideButton();
+			log.debug("Daj vamo");
 			sleepSecondsBecauseReasons(2);
 			assertTrue(app.isTextBoxDisplayed());
 			assertTrue(app.isTextBoxEnabled());
 			assertFalse(app.isTextBoxInteractable());
 			app.clickShowButton();
 			assertTrue(app.isTextBoxInteractable());
+			log.info("Brt moj test prosao!!!");
 		
 	}
 	

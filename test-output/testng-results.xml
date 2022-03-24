@@ -2,19 +2,19 @@
 <testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-24T15:29:55 CET" name="Default suite" finished-at="2022-03-24T15:31:00 CET" duration-ms="65614">
+  <suite started-at="2022-03-24T17:33:07 CET" name="Default suite" finished-at="2022-03-24T17:33:34 CET" duration-ms="26278">
     <groups>
-      <group name="some_test_group">
-        <method signature="NavigateToLoginPage.navigateToLoginPage()[pri:0, instance:MyFramework.NavigateToLoginPage@55787112]" name="navigateToLoginPage" class="MyFramework.NavigateToLoginPage"/>
-      </group> <!-- some_test_group -->
+      <group name="some_other_test_group">
+        <method signature="NavigateToLoginPage.automationPageFrameNavigation()[pri:0, instance:MyFramework.NavigateToLoginPage@107ed6fc]" name="automationPageFrameNavigation" class="MyFramework.NavigateToLoginPage"/>
+      </group> <!-- some_other_test_group -->
     </groups>
-    <test started-at="2022-03-24T15:29:55 CET" name="Default test" finished-at="2022-03-24T15:31:00 CET" duration-ms="65614">
+    <test started-at="2022-03-24T17:33:07 CET" name="Default test" finished-at="2022-03-24T17:33:34 CET" duration-ms="26278">
       <class name="MyFramework.NavigateToLoginPage">
-        <test-method signature="navigateToLoginPage()[pri:0, instance:MyFramework.NavigateToLoginPage@55787112]" started-at="2022-03-24T15:29:55 CET" name="navigateToLoginPage" finished-at="2022-03-24T15:31:00 CET" duration-ms="65409" status="PASS">
+        <test-method signature="automationPageFrameNavigation()[pri:0, instance:MyFramework.NavigateToLoginPage@107ed6fc]" started-at="2022-03-24T17:33:07 CET" name="automationPageFrameNavigation" finished-at="2022-03-24T17:33:33 CET" duration-ms="25550" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- navigateToLoginPage -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:MyFramework.NavigateToLoginPage@55787112]" started-at="2022-03-24T15:31:00 CET" name="closeDriver" finished-at="2022-03-24T15:31:00 CET" duration-ms="173" status="PASS">
+        </test-method> <!-- automationPageFrameNavigation -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:MyFramework.NavigateToLoginPage@107ed6fc]" started-at="2022-03-24T17:33:33 CET" name="closeDriver" finished-at="2022-03-24T17:33:34 CET" duration-ms="682" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
