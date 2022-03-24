@@ -1,8 +1,10 @@
-14:32:08.375 [TestNG-tests-1] INFO   - automationPageFrameNavigation: PASSED WOOOHOOO!
-14:32:18.328 [TestNG-tests-3] INFO   - homePageValidation: PASSED WOOOHOOO!
-14:32:31.861 [TestNG-tests-4] INFO   - hideShowButtonTest: PASSED WOOOHOOO!
-14:32:34.241 [TestNG-tests-1] INFO   - navigateToLoginPage: PASSED WOOOHOOO!
-15:28:34.491 [main] DEBUG  - [Debug] Opening Home Page
-15:29:09.515 [main] DEBUG  - [Debug] Clicking on Login Link
-15:29:58.157 [main] DEBUG  - [Debug] Opening Home Page
-15:30:57.135 [main] DEBUG  - [Debug] Clicking on Login Link
+15:31:00.431 [main] INFO   - Test Passed!
+17:24:45.287 [main] DEBUG  - [Debug] Opening Home Page
+17:25:04.334 [main] DEBUG  - [Debug] Clicking on Login Link
+17:25:08.432 [main] INFO   - Test Passed!
+17:33:19.056 [main] DEBUG  - [Debug] Opening Automation Page
+17:33:25.860 [main] DEBUG  - Daj vamo
+17:37:32.397 [main] DEBUG  - [Debug] Opening Automation Page
+17:37:39.527 [main] DEBUG  - Daj vamo
+17:37:47.130 [main] INFO   - Brt moj test prosao!!!
+17:38:44.691 [main] DEBUG  - [Debug] Opening Automation Page

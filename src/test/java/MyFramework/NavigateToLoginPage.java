@@ -82,6 +82,7 @@ public class NavigateToLoginPage extends BaseTest {
 			app.clickShowButton();
 			assertTrue(app.isTextBoxInteractable());
 			log.info("Brt moj test prosao!!!");
+			log.info("Da vidimo dal ce na gitu prodje sad!");
 		
 	}
 	
