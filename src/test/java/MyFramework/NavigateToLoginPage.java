@@ -67,6 +67,7 @@ public class NavigateToLoginPage extends BaseTest {
 		//System.setProperty("webdriver.chrome.driver", "C://Users/Pavle/OneDrive/Documents/chromedriver.exe");
 		driver2 = getDriverWrapper();
 			AutomationPracticePage app = new AutomationPracticePage(driver2).openAutomationPracticePage();
+			log.debug("[Debug] Opening Automation Page");
 			app.switchToFrame();
 			app.clickOnConsultingLink();
 			app.enterNameInFrame("Some Name");
