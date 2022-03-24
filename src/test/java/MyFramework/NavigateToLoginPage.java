@@ -39,10 +39,11 @@ public class NavigateToLoginPage extends BaseTest {
 	public void navigateToLoginPage() {
 		//System.setProperty("webdriver.chrome.driver", "C://Users/Pavle/OneDrive/Documents/chromedriver.exe");
 		driver = getDriverWrapper();
-		
+		log.debug("[Debug] Opening Home Page");
 		HomePage homePage = new HomePage(driver).openHomePage();
 		//driver.get("http://qaclickacademy.com");
 		homePage.dissmisDamnPopUpifPresent();
+		log.debug("[Debug] Clicking on Login Link");
 		LoginPage loginPage = homePage.clickOnLoginLink();
 		String sActualLoginHeaderText = loginPage.getHeaderText();
 		assertEquals(sActualLoginHeaderText, sExpectedLoginPageHeaderText, "Expected and Actual texts are not matching!");
@@ -56,6 +57,7 @@ public class NavigateToLoginPage extends BaseTest {
 		System.out.println(fpp.getHaderText());
 		fpp.typeEmail(sInvalidEmail);
 		fpp.clickOnSendMeInstructions();
+		log.info("Test Passed!");
 		
 	}
 	
