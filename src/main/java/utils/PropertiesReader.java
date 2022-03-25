@@ -49,6 +49,14 @@ public class PropertiesReader {
 		return automationPageUrl;
 	}
 	
+	public static String getRSAPageUrl(Properties properties) throws IOException{
+		properties = new Properties();
+		fis = new FileInputStream(propertiesRelativePath);
+		properties.load(fis);
+		String automationPageUrl = properties.getProperty("rsaUrl");
+		return automationPageUrl;
+	}
+	
 	public static boolean isHeadless(Properties properties){
 		properties = new Properties();
 		try {

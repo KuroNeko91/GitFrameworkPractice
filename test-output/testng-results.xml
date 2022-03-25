@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-24T17:38:35 CET" name="Default suite" finished-at="2022-03-24T17:39:14 CET" duration-ms="38363">
+  <suite started-at="2022-03-25T13:00:33 CET" name="Default suite" finished-at="2022-03-25T13:00:44 CET" duration-ms="11273">
     <groups>
-      <group name="some_other_test_group">
-        <method signature="NavigateToLoginPage.automationPageFrameNavigation()[pri:0, instance:MyFramework.NavigateToLoginPage@55787112]" name="automationPageFrameNavigation" class="MyFramework.NavigateToLoginPage"/>
-      </group> <!-- some_other_test_group -->
     </groups>
-    <test started-at="2022-03-24T17:38:35 CET" name="Default test" finished-at="2022-03-24T17:39:14 CET" duration-ms="38363">
-      <class name="MyFramework.NavigateToLoginPage">
-        <test-method signature="automationPageFrameNavigation()[pri:0, instance:MyFramework.NavigateToLoginPage@55787112]" started-at="2022-03-24T17:38:35 CET" name="automationPageFrameNavigation" finished-at="2022-03-24T17:39:14 CET" duration-ms="38217" status="PASS">
+    <test started-at="2022-03-25T13:00:33 CET" name="Default test" finished-at="2022-03-25T13:00:44 CET" duration-ms="11273">
+      <class name="newTestWn.RSASubscribeTest">
+        <test-method signature="subscribeRSATest()[pri:0, instance:newTestWn.RSASubscribeTest@2c7d121c]" started-at="2022-03-25T13:00:33 CET" name="subscribeRSATest" finished-at="2022-03-25T13:00:44 CET" duration-ms="10531" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- automationPageFrameNavigation -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:MyFramework.NavigateToLoginPage@55787112]" started-at="2022-03-24T17:39:14 CET" name="closeDriver" finished-at="2022-03-24T17:39:14 CET" duration-ms="113" status="PASS">
+        </test-method> <!-- subscribeRSATest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:newTestWn.RSASubscribeTest@2c7d121c]" started-at="2022-03-25T13:00:44 CET" name="afterMethod" finished-at="2022-03-25T13:00:44 CET" duration-ms="700" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeDriver -->
-      </class> <!-- MyFramework.NavigateToLoginPage -->
+        </test-method> <!-- afterMethod -->
+      </class> <!-- newTestWn.RSASubscribeTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

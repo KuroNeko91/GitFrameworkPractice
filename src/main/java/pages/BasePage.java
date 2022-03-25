@@ -118,6 +118,17 @@ public class BasePage {
 		driver.get(getHomePageUrlFromProperties());
 	}
 	
+	public static String getRSAPageUrlFromProperties() {
+		String url = null;
+		try {
+			url = PropertiesReader.getRSAPageUrl(properties);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return url;
+	}
+	
 	public void click(WebElement element) {
 		waitForElementToBeVisible(element);
 		waitForElementToBeClickable(element);
