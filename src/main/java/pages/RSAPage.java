@@ -27,6 +27,9 @@ WebElement subscribeModalLocator;
 @FindBy (xpath ="//div[@id='subscribeModal']//button[@class='close']")
 WebElement closeModalButtonLocator;
 
+@FindBy (id = "enroll-button-top")
+WebElement selectMemberShipPackageLocator;
+
 //"//a[@href='#/mentorship']/div"
 	
 	public WebDriver driver;
@@ -87,4 +90,30 @@ WebElement closeModalButtonLocator;
 		return new RSAPage(driver);
 	}
 	
+	public boolean isPlatinumJoinButtonPresent() {
+		boolean isPresent = isElementPresent(menthorshipPlatinumJoinNowButtonLocator);
+		log.debug("isPlatinumJoinButtonPresent() - result: " +isPresent);
+		return isPresent;
+	}
+	
+	public RSAPage clickPlatinumJoinButton() {
+		assertTrue(isPlatinumJoinButtonPresent());
+		click(menthorshipPlatinumJoinNowButtonLocator);
+		log.debug("clickPlatinumJoinButton()");
+		return new RSAPage(driver);
+	}
+	
+	public boolean isPlatinumPage() {
+		boolean isPresent = isElementPresent(selectMemberShipPackageLocator);
+		log.debug("isPlatinumPage() - result: " +isPresent);
+		return isPresent;
+	}
+	
+	public void clickSelectMembershipLink() {
+		assertTrue(isPlatinumPage());
+		click(selectMemberShipPackageLocator);
+		log.debug("clickSelectMembershipLink()");
+	}
 }
+	
+

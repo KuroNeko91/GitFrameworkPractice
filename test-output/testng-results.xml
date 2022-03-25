@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-25T13:00:33 CET" name="Default suite" finished-at="2022-03-25T13:00:44 CET" duration-ms="11273">
+  <suite started-at="2022-03-25T13:50:14 CET" name="Default suite" finished-at="2022-03-25T13:50:28 CET" duration-ms="14229">
     <groups>
     </groups>
-    <test started-at="2022-03-25T13:00:33 CET" name="Default test" finished-at="2022-03-25T13:00:44 CET" duration-ms="11273">
-      <class name="newTestWn.RSASubscribeTest">
-        <test-method signature="subscribeRSATest()[pri:0, instance:newTestWn.RSASubscribeTest@2c7d121c]" started-at="2022-03-25T13:00:33 CET" name="subscribeRSATest" finished-at="2022-03-25T13:00:44 CET" duration-ms="10531" status="PASS">
+    <test started-at="2022-03-25T13:50:14 CET" name="Default test" finished-at="2022-03-25T13:50:28 CET" duration-ms="14229">
+      <class name="newTestWn.RSASubscribePlatinumTest">
+        <test-method signature="subscrbePlatinumTest()[pri:0, instance:newTestWn.RSASubscribePlatinumTest@2c3dec30]" started-at="2022-03-25T13:50:14 CET" name="subscrbePlatinumTest" finished-at="2022-03-25T13:50:28 CET" duration-ms="14040" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- subscribeRSATest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:newTestWn.RSASubscribeTest@2c7d121c]" started-at="2022-03-25T13:00:44 CET" name="afterMethod" finished-at="2022-03-25T13:00:44 CET" duration-ms="700" status="PASS">
+        </test-method> <!-- subscrbePlatinumTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:newTestWn.RSASubscribePlatinumTest@2c3dec30]" started-at="2022-03-25T13:50:28 CET" name="afterMethod" finished-at="2022-03-25T13:50:28 CET" duration-ms="155" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- newTestWn.RSASubscribeTest -->
+      </class> <!-- newTestWn.RSASubscribePlatinumTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
