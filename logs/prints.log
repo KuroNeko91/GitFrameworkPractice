@@ -1,3 +1,3 @@
-17:39:01.206 [main] DEBUG  - Daj vamo
-17:39:14.077 [main] INFO   - Brt moj test prosao!!!
-17:39:14.077 [main] INFO   - Da vidimo dal ce prodje sad!
+13:00:43.149 [main] DEBUG RSA Page Logger - isSubscribeModalOpen() - result: true
+13:00:44.099 [main] DEBUG RSA Page Logger - clickCloseModalButton()
+13:00:44.801 [main] INFO   - TEST PASSED!
