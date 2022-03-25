@@ -1,3 +1,2 @@
-13:00:43.149 [main] DEBUG RSA Page Logger - isSubscribeModalOpen() - result: true
-13:00:44.099 [main] DEBUG RSA Page Logger - clickCloseModalButton()
-13:00:44.801 [main] INFO   - TEST PASSED!
+13:50:27.437 [main] DEBUG RSA Page Logger - clickSelectMembershipLink()
+13:50:28.606 [main] INFO   - TEST PASSED!
