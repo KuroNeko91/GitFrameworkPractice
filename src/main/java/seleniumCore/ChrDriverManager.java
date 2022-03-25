@@ -35,7 +35,7 @@ public class ChrDriverManager {
 	    if(isIncognito) {
 	    	option.addArguments("--incognito");
 	    }
-	    option.addArguments("--start-maximized");
+	    //option.addArguments("--start-maximized");
 	    option.setAcceptInsecureCerts(true);
 	    DesiredCapabilities chrome = new DesiredCapabilities();
 	    chrome.setJavascriptEnabled(true);

@@ -1,7 +1,7 @@
-13:50:18.207 [main] DEBUG RSA Page Logger - Opening Rahul Shetty Academy URL: https://www.rahulshettyacademy.com/
-13:50:22.944 [main] DEBUG RSA Page Logger - isMentorshipBoxPresent() - result: true
-13:50:23.673 [main] DEBUG RSA Page Logger - clickMentorshipBox()
-13:50:23.711 [main] DEBUG RSA Page Logger - isPlatinumJoinButtonPresent() - result: true
-13:50:27.173 [main] DEBUG RSA Page Logger - clickPlatinumJoinButton()
-13:50:27.200 [main] DEBUG RSA Page Logger - isPlatinumPage() - result: true
-13:50:27.217 [main] DEBUG RSA Page Logger - isPlatinumPage() - result: true
+14:01:18.356 [main] DEBUG RSA Page Logger - isMentorshipBoxPresent() - result: true
+14:01:19.105 [main] DEBUG RSA Page Logger - clickMentorshipBox()
+14:01:19.257 [main] DEBUG RSA Page Logger - isPlatinumJoinButtonPresent() - result: true
+14:01:22.441 [main] DEBUG RSA Page Logger - clickPlatinumJoinButton()
+14:01:22.586 [main] DEBUG RSA Page Logger - isPlatinumPage() - result: true
+14:01:22.607 [main] DEBUG RSA Page Logger - isPlatinumPage() - result: true
+14:01:22.827 [main] DEBUG RSA Page Logger - clickSelectMembershipLink()
